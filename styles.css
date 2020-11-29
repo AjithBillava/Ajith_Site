@@ -23,7 +23,7 @@ hr{
     padding-right: 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -93,10 +93,44 @@ hr{
     max-width: 350px;
     display: block;
     margin: auto;
+    padding: 4rem 0rem;
+
+}
+.hero .code-img{
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    padding-top: 0.5rem ;
+
 }
 .hero .hero-heading{
     color: var(--dark-grey);
     padding-top: 2rem;
+}
+.hero .coder-heading{
+    color: var(--dark-grey);
+    padding-top: 2rem;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.date{
+   
+    text-align: left;
+}
+
+.blog-content{
+    /* font-size: 1.25rem; */
+}
+
+.blog-content .link{
+    color: black;
+    margin: 0rem;
+    text-decoration: underline;
+    padding:0rem
+}
+.blog-section{
+    padding: 0.25rem 2rem;
 }
 
 /* section */
