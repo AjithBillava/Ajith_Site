@@ -113,6 +113,14 @@ hr{
     font-size: 3rem;
     margin: 0px;
 }
+ .title-heading{
+    color: var(--primary-color);
+    padding-top: 2rem;
+    font-size: 3rem;
+    margin: 0px;
+    text-align: left;
+    text-decoration: underline var(--dark-grey);
+}
 
 .date{
    
