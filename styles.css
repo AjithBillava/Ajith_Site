@@ -81,6 +81,7 @@ hr{
 
 .nav-brand{
     padding: 0rem 2rem;
+    cursor: pointer;
 }
 
 .navigation .link{
@@ -140,7 +141,10 @@ hr{
    
     text-align: left;
 }
-
+.reverse-column{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .blog-content{
     /* font-size: 1.25rem; */
 }
