@@ -105,11 +105,12 @@ hr{
     text-align: center;
 }
 .hero .hero-img{
-    max-width: 350px;
-    display: block;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
     margin: auto;
     padding: 4rem 0rem;
-
+    flex-shrink: 1;
 }
 .hero .code-img{
     max-width: 700px;
@@ -189,4 +190,16 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+
+@media (max-width: 425px) {
+    .hero{
+        padding: 0;
+    }
+    .hero-img{
+        width: 200px;
+    }
+    .link{
+        margin: 0 0 0.2rem 0;
+    }
 }
